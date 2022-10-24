@@ -5,3 +5,30 @@ class HelloWorld {
         System.out.println("Hello, World!"); 
     }
 }
+
+//Area of Circle
+import java.util.Scanner;
+public class areaofcircle {
+    public static void main(String{}args){
+   
+   //Declare the Recured memory variable
+    float r,area;
+    
+    //Get user input for Radius
+    System.out.print("Enter Radius of Circle");
+    Scanner in = new Scanner(System.in);
+    r=in.nextFloat();
+    in.close();
+    
+    //Calculation
+    area = (float)(22.0/7) * r * r;
+    
+    //Display area of circle
+    System.out.printf("area of circle with Radius %.4f is %.4f",r,area);
+    
+    }
+}
+    
+    
+    
+    
